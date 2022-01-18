@@ -32,3 +32,26 @@ Build:
 ```
 ./go build -ldflags="-s -w"
 ```
+
+# Docker
+
+## Buildando a imagem local
+
+Build: 
+```
+./docker build -t thiagoporb/codeeducation:latest .
+```
+
+## Enviando a imagem para o docker hub
+
+Build: 
+```
+./docker push thiagoporb/codeeducation:latest
+```
+
+## Rodando a imagem remoto
+
+Run: 
+```
+./docker run thiagoporb/codeeducation
+```
