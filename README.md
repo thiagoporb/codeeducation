@@ -44,7 +44,7 @@ Build:
 
 ## Enviando a imagem para o docker hub
 
-Build: 
+Push: 
 ```
 ./docker push thiagoporb/codeeducation:latest
 ```
